@@ -100,7 +100,7 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 1: An `o _ _ g e` a day keeps the doctor away. 🍊",
+    "ข้อ 1: An `o _ _ _ g e` a day keeps the doctor away. 🍊",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
