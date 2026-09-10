@@ -76,8 +76,16 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
 
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
+    if score == 5:
+        st.success("🎉 ยอดเยี่ยม!")
+    if score == 4:
+        st.success("🎉 ดีมาก!")
     if score == 3:
-        st.success("🎉 You win!")
+        st.success("🎉 ใช้ได้เลย!")
+    if score == 1-2:
+        st.success("🎉 พยายามอีกหน่อยนะ!")  
+    if score == 0:
+        st.success("🎉 สู้ๆน้า😁!")  
     else:
         st.error("💀 You lose!")
 
