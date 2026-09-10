@@ -1,7 +1,7 @@
 import time
 import streamlit as st
 
-st.title("😘 เกมทายศัพท์จับเวลาภาษอังกฤษ")
+st.title("😘 เกมทายศัพท์จับเวลาภาษาอังกฤษ")
 
 # 1. กำหนดค่าเริ่มต้นใน session_state ถ้ายังไม่มี
 if "ans1_val" not in st.session_state:
